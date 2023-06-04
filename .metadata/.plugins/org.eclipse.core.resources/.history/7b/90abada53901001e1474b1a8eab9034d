@@ -1,0 +1,18 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" errorPage="Error.jsp" isErrorPage="true"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<%
+	int sum = 10/0; //에러코드를 작성
+%>
+
+
+</body>
+</html>
