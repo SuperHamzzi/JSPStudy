@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<center>
+	<h2> 회원 가입</h2>
+	<form action="RequestJoinProc.jsp" method="post">
+	<table width="500" border="1">
+	<tr height="50">
+		<td width="150" align="center"> 아이디</td>
+		<td width="350">
+		<input type="text" name="id" size="20">
+		</td>
+	</tr>
+	</table>
+	</form>
+	</center>
+
+</body>
+</html>
